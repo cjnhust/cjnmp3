@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"
+              android:background="@drawable/mirror_b"
+        >
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="429dp"
+            android:id="@+id/listView"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:weightSum="1">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="循环播放"
+                android:id="@+id/circle"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="随机播放"
+                android:id="@+id/random"/>
+        <ImageButton
+                android:background="#00000000"
+                android:src="@drawable/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/play" />
+        <ImageButton
+                android:layout_marginLeft="10dp"
+                android:background="#00000000"
+                android:src="@drawable/replay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop"/>
+
+    </LinearLayout>
+</LinearLayout>
+
