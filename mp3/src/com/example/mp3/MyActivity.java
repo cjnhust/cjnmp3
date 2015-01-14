@@ -36,7 +36,7 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
     boolean able =false;
     boolean can=false;
     private Handler handle;
-
+//A method for playing
     public void mediaplay(int p){
 
         try {
@@ -84,7 +84,7 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
         bn_random.setOnClickListener(this);
 
 
-
+//To get the names and the paths of files
         if (Environment.getExternalStorageState().equals(
                 Environment.MEDIA_MOUNTED)) {
             File path = Environment.getExternalStorageDirectory();
